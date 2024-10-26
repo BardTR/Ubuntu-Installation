@@ -11,13 +11,14 @@ This guide will walk you through the steps to install Ubuntu **24.04** on your c
 * [Step 3: Boot from USB](#step-3-boot-from-usb)
 * [Step 4: Ubuntu Installation](#step-4-ubuntu-installation)
   * [Step 4.1: Choose Language](#step-4-ubuntu-installation)
-  * [Step 4.2: Select Keyboard Layout](#step-4-ubuntu-installation)
-  * [Step 4.3: Connect to Wi-Fi](#step-4-ubuntu-installation)
-  * [Step 4.4: Update and Install Options](#step-4-ubuntu-installation)
-  * [Step 4.5: Partitioning](#step-4-ubuntu-installation)
-  * [Step 4.6: User and System Setup](#step-4-ubuntu-installation)
-  * [Step 4.7: Start Installation](#step-4-ubuntu-installation)
-  * [Step 4.8: Finishing Installation](#step-4-ubuntu-installation)
+  * [Step 4.2: Accessibility](#step-4-ubuntu-installation)
+  * [Step 4.3: Select Keyboard Layout](#step-4-ubuntu-installation)
+  * [Step 4.4: Connect to Wi-Fi](#step-4-ubuntu-installation)
+  * [Step 4.5: Update and Install Options](#step-4-ubuntu-installation)
+  * [Step 4.6: Partitioning](#step-4-ubuntu-installation)
+  * [Step 4.7: User and System Setup](#step-4-ubuntu-installation)
+  * [Step 4.8: Start Installation](#step-4-ubuntu-installation)
+  * [Step 4.9: Finishing Installation](#step-4-ubuntu-installation)
 * [Post-Installation Setup](#post-installation-setup)
 * [Troubleshooting](#troubleshooting)
 * [Additional Resources](#additional-resources)
@@ -93,24 +94,36 @@ sudo dd if=/path/to/ubuntu-24.04.iso of=/dev/sdX bs=4M status=progress
 ### Step 4: Ubuntu Installation
   
   #### Step 4.1: Choose Language
- * On the welcome screen, select your preferred language and click **Continue**.
+ * On the welcome screen, select your preferred language and click **Next**.
   
 ![Screenshot_1](https://github.com/user-attachments/assets/653ca945-97a0-464c-9223-946218750d5b)
 
-  #### Step 4.2: Select Keyboard Layout
- * Choose your keyboard layout and click **Continue**.
+  #### Step 4.2: Accessibility
+  * If you need accessibility features, select them and click **Next**
+![Screenshot_3](https://github.com/user-attachments/assets/36d95bc9-973a-4080-98d4-023a7566224a)
+  
+![Screenshot_4](https://github.com/user-attachments/assets/8e597e2d-dcd5-4b3d-8150-36021a7c5560)
+
+![Screenshot_5](https://github.com/user-attachments/assets/1349caf1-d5b4-4730-b613-188408f1d1f6)
+
+![Screenshot_6](https://github.com/user-attachments/assets/574b710e-7c6c-4b79-b814-dc517b8d6494)
+
+![Screenshot_7](https://github.com/user-attachments/assets/79a4fc4f-f74e-4cda-8974-f2c269f6a6b7)
+
+
+  #### Step 4.3: Select Keyboard Layout
+ * Choose your keyboard layout and click **Next**.
   
 ![Screenshot_8](https://github.com/user-attachments/assets/403d347e-a646-4acb-8542-1271774af011)
 
-
-  #### Step 4.3: Connect to Wi-Fi
+  #### Step 4.4: Connect to Wi-Fi
  * If prompted, select your **Wi-Fi** network and enter the password.
 
 ![Screenshot from 2024-10-26 09-59-38](https://github.com/user-attachments/assets/cc73e5bb-16b0-432d-a3b6-bcb6e9501ad9)
 
 ![Screenshot from 2024-10-26 10-00-16](https://github.com/user-attachments/assets/1c38485a-4943-4517-8842-08561d989931)
 
-  #### Step 4.4: Update and Install Options
+  #### Step 4.5: Update and Install Options
  * **Default Installation**: Only includes basic utilities and a web browser.
  * **Extended Installation**: Includes all apps.
  * Check **Download updates while installing Ubuntu** and **Install third-party software** for graphics, Wi-Fi, etc.
@@ -122,7 +135,7 @@ sudo dd if=/path/to/ubuntu-24.04.iso of=/dev/sdX bs=4M status=progress
 ![Screenshot from 2024-10-26 09-59-17](https://github.com/user-attachments/assets/de497121-c649-40f2-9251-c7a44e63e16d)
 
 
-  #### Step 4.5: Partitioning
+  #### Step 4.6: Partitioning
  
  * **Installs Ubuntu alongside Windows Boot Manager**: Installs Ubuntu with Windows.
  
@@ -139,7 +152,7 @@ sudo dd if=/path/to/ubuntu-24.04.iso of=/dev/sdX bs=4M status=progress
    * Home (/home): Remaining space
    * Swap: Equal to RAM size (recommended for systems with 4GB or less RAM)
   
-  #### Step 4.6: User and System Setup
+  #### Step 4.7: User and System Setup
    * Enter your **name, computer name, username, and password**.
    * Choose whether you want to log in automatically or require a password at login.
   
@@ -148,11 +161,11 @@ sudo dd if=/path/to/ubuntu-24.04.iso of=/dev/sdX bs=4M status=progress
 ![Screenshot_14](https://github.com/user-attachments/assets/74993048-76ae-4ee9-842c-9990d34a9312)
 
 
-  #### Step 4.7: Start Installation
+  #### Step 4.8: Start Installation
    * Review your settings and click **Install Now** to begin the installation.
    * Follow any on-screen instructions, if applicable.
   
-  #### Step 4.8: Finishing Installation
+  #### Step 4.9: Finishing Installation
    * When installation completes, click **Restart Now** and remove the bootable USB drive when prompted.
    * Your computer will restart into **Ubuntu 24.04**.
 

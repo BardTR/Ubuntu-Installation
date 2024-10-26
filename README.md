@@ -5,7 +5,7 @@ This guide will walk you through the steps to install Ubuntu **24.04** on your c
 
 ## Table of Contents
 
-* [Prerequisites](#prerequisites)
+* [Recommended Minimum System Requirements](#recommended-minimum-system-requirements)
 * [Step 1: Download Ubuntu 24.04 ISO](#step-1-download-ubuntu-2404-iso)
 * [Step 2: Create a Bootable USB](#step-2-create-a-bootable-usb)
 * [Step 3: Boot from USB](#step-3-boot-from-usb)
@@ -22,10 +22,15 @@ This guide will walk you through the steps to install Ubuntu **24.04** on your c
 * [Troubleshooting](#troubleshooting)
 * [Additional Resources](#additional-resources)
 
-## Prerequisites
+## Recommended Minimum System Requirements
 
-* **Computer** with at least 4GB of RAM and 25GB of available storage space.
-* **USB Flash Drive** (12GB or larger) to create a bootable drive.
+* 2 GHz dual-core **processor**
+* 4096 MiB RAM (system memory) for **physical** installs.
+* 2048 MiB RAM for **virtualised** installs.
+* 25 GB (8.6 GB for minimal) of **hard-drive** space (or USB stick, memory card or external drive but see [LiveCD](https://help.ubuntu.com/community/LiveCD) for an alternative approach)
+* 3D acceleration-capable **GPU** with at least 256 MB of VRAM
+* 1024x768 or higher **resolution** display
+* 16 GB (or larger) **USB flash drive**
 * **Backup** all important data from your computer before proceeding.
 * **Internet Connection** for downloading updates and additional features during installation.
 
@@ -61,7 +66,7 @@ sudo dd if=/path/to/ubuntu-24.04.iso of=/dev/sdX bs=4M status=progress
 
 * Insert the bootable USB drive into your computer.
 * Restart the computer and enter the Boot Menu (usually by pressing F12, Esc, F2, DEL, varies to [manufacturer](#some-of-the-manufacturer-bios-keys-for-examples)).
-    * *OR* Use Windows 11 or 10's Advanced Start Menu to access BIOS
+    * *OR* Use Windows 11 or 10's Advanced Start Menu to access BIOS 
 * Select the USB drive from the Boot Menu to start the Ubuntu installer.
 
 ### Step 4: Ubuntu Installation

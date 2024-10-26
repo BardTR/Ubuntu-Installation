@@ -60,6 +60,7 @@ sudo dd if=/path/to/ubuntu-24.04.iso of=/dev/sdX bs=4M status=progress
 
 * Insert the bootable USB drive into your computer.
 * Restart the computer and enter the Boot Menu (usually by pressing F12, Esc, F2, DEL, varies to [manufacturer](#some-of-the-manufacturer-bios-keys-for-examples)).
+    * *OR* Use Windows 11 or 10's Advanced Start Menu to access BIOS
 * Select the USB drive from the Boot Menu to start the Ubuntu installer.
 
 ### Step 4: Ubuntu Installation
@@ -107,16 +108,18 @@ After your first boot, consider these additional steps:
 
 1. Update the System :
 
+Bash
 ``` bash
 sudo apt update && sudo apt upgrade -y
 ```
 
 2. Install Additional Software:
 
-   * **Snap** and **Flatpak** provide easy access to a range of software.
+   * **Snap** and/or **Flatpak** provide easy access to a range of software.
 
-   * Examples:
-
+   * Examples: *installs VLC media player*
+   
+   Bash
    ``` bash
    sudo apt install gimp vlc
    ```

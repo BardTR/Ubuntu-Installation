@@ -156,7 +156,7 @@ sudo dd if=/path/to/ubuntu-24.04.iso of=/dev/sdX bs=4M status=progress
    * When installation completes, click **Restart Now** and remove the bootable USB drive when prompted.
    * Your computer will restart into **Ubuntu 24.04**.
 
-## Post-Installation Setup
+## Post-Installation Setup (Optional)
 
 After your first boot, consider these additional steps:
 

@@ -1,3 +1,4 @@
+![ubuntu-logo-png-ubuntu-logo-free-logo-icons-1200x630](https://github.com/user-attachments/assets/5885df1d-dbe5-4ead-92e1-8d92c2ee9bf7)
 # Ubuntu 24.04 Installation Guide
 
 This guide will walk you through the steps to install Ubuntu **24.04** on your computer. It includes instructions for downloading the ISO file, creating a bootable USB, and installing Ubuntu. Follow each step carefully to ensure a smooth installation.

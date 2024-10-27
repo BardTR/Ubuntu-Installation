@@ -124,16 +124,19 @@ sudo dd if=/path/to/ubuntu-24.04.iso of=/dev/sdX bs=4M status=progress
 ![Screenshot from 2024-10-26 10-00-16](https://github.com/user-attachments/assets/1c38485a-4943-4517-8842-08561d989931)
 
   #### Step 4.5: Update and Install Options
- * **Default Installation**: Only includes basic utilities and a web browser.
- * **Extended Installation**: Includes all apps.
- * Check **Download updates while installing Ubuntu** and **Install third-party software** for graphics, Wi-Fi, etc.
+ * **Interactive Installation**: For users who wants to install Ubuntu maually
+ * **Automated Installation**: For users who made configuration file before for make setup automated
 
 ![Screenshot_10](https://github.com/user-attachments/assets/a49d0025-d5dd-40fc-8381-f03c1e1b94f0)
 
+* **Default Installation**: Only includes basic utilities and a web browser.
+* **Extended Installation**: Includes all apps.
+
 ![Screenshot_11](https://github.com/user-attachments/assets/256d79d3-1c30-4206-b299-9e9d5956abc3)
 
-![Screenshot from 2024-10-26 09-59-17](https://github.com/user-attachments/assets/de497121-c649-40f2-9251-c7a44e63e16d)
+* (Optional) Check **Install support for additional media formats** and **Install third-party software** for graphics, Wi-Fi, etc.
 
+![Screenshot from 2024-10-26 09-59-17](https://github.com/user-attachments/assets/de497121-c649-40f2-9251-c7a44e63e16d)
 
   #### Step 4.6: Partitioning
  
